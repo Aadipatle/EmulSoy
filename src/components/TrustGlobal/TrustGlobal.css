@@ -1,0 +1,60 @@
+.trust-global {
+  background: #ffffff;
+}
+
+.trust-card,
+.global-card {
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+ box-shadow: 
+    8px 8px 16px rgba(163, 177, 198, 0.6),   
+    -8px -8px 16px rgba(255, 255, 255, 0.9); 
+  transition: transform 0.3s ease;
+}
+
+.trust-card:hover,
+.global-card:hover {
+  transform: translateY(-5px);
+   box-shadow:
+    inset 6px 6px 12px rgba(163, 177, 198, 0.6),
+    inset -6px -6px 12px rgba(255, 255, 255, 0.9);
+  background: linear-gradient(-90deg, #fffb757e 10%, #9bffa090 91%);
+
+}
+
+.trust-card {
+  background: linear-gradient(45deg, #fffb757e 10%, #9bffa090 91%);
+
+  /* border-left: 4px solid #22c55e; */
+}
+
+.global-card {
+  background: linear-gradient(45deg, #fffb757e 10%, #9bffa090 91%);
+
+  /* border-left: 4px solid #3b82f6; */
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #4b5563; 
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .trust-card,
+  .global-card {
+    padding: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+  }
+}
