@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="container">
+      <div className="container"> 
         <div className="header-content">
           <div className="logo">
             <img src={logo} alt="EmulSoy Logo" />
